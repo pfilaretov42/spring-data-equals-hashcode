@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringDataEqualsHashcodeApplication {
+public class SpringDataEqualsHashCodeApp {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringDataEqualsHashcodeApplication.class, args);
+        SpringApplication.run(SpringDataEqualsHashCodeApp.class, args);
     }
 
 }
