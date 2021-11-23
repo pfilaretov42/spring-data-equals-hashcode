@@ -1,0 +1,13 @@
+# PostgreSQL container
+version: '3.8'
+services:
+  sdehc-postgres:
+    container_name: sdehc-postgres
+    image: postgres:13.5
+    environment:
+      - POSTGRES_USER=sdehc
+      - POSTGRES_PASSWORD=sdehc
+      - POSTGRES_DB=sdehc
+      - POSTGRES_HOST_AUTH_METHOD=trust
+    ports:
+      - 127.0.0.1:5444:5432

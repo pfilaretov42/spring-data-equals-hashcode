@@ -2,6 +2,11 @@
 
 This is the Ultimate Guide to equals and hashCode with Spring Data.
 
+## How to run
+
+1. Start postgres DB container using `postgres.yml`. Database is available at `localhost:5444`.
+2. Start spring boot application.
+
 ## More Info
 
 ### Reference Documentation

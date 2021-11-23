@@ -1,0 +1,8 @@
+spring:
+  jpa:
+    show-sql: true
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:postgresql://localhost:5444/sdehc
+    username: sdehc
+    password: sdehc

@@ -1,0 +1,26 @@
+databaseChangeLog:
+    -   changeSet:
+            id: init
+            author: Petr Filaretov
+            changes:
+                -   createTable:
+                        tableName: hobbits
+                        columns:
+                            -   column:
+                                    name: id
+                                    type: uuid
+                                    constraints:
+                                        primaryKey: true
+                                        nullable: false
+                            -   column:
+                                    name: first_name
+                                    type: varchar(255)
+                                    constraints:
+                                        nullable: false
+                            -   column:
+                                    name: last_name
+                                    type: varchar(255)
+                                    constraints:
+                                        nullable: false
+
+
